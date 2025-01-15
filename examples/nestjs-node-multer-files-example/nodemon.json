@@ -1,0 +1,6 @@
+{
+    "watch": ["src", "node_modules/@sco-techlab/node-multer-files"],
+    "ext": "ts,js,json",
+    "ignore": [],
+    "exec": "nest start"
+}
