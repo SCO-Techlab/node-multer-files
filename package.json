@@ -2,7 +2,7 @@
   "name": "@sco-techlab/node-multer-files",
   "version": "1.0.1",
   "author": "SCO Techlab (Santiago Comeras Oteo) <sco.techlab@gmail.com> (https://web.sco-techlab.es/)",
-  "description": "Easy nodejs files management",
+  "description": "Easy nodejs / express / NestJS files management",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./dist && nest build && cp ./package.json ./dist/node-multer-files && cp ./README.md ./dist/node-multer-files && cp ./tsconfig* ./dist/node-multer-files && chmod -R 777 ./dist",
@@ -22,7 +22,7 @@
     "files",
     "easy files",
     "Multer",
-    "Multer Files"
+    "Multer files"
   ],
   "devDependencies": {
     "@types/multer": "^1.4.12",
